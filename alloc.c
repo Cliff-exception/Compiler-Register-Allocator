@@ -200,7 +200,7 @@ void printList (regList * List){
 
 int getSpillVal(){
 
-    globalOffset -= 5; 
+    globalOffset -= 4; 
 
     return globalOffset; 
 }
